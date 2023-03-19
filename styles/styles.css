@@ -19,6 +19,9 @@ body {
     box-sizing: border-box;
     background-color: var(--cor-primaria);
     color: var(--cor-secundaria);
+    display: flex;
+    flex-direction: column;
+    gap: 100px;
 }
 
 .cabecalho {
@@ -116,6 +119,7 @@ body {
     font-size: 1.5rem;
     font-family: var(--fonte-primaria);
     font-weight: 400;
+    
 
 }
 
